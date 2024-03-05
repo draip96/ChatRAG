@@ -2,3 +2,4 @@ node_modules/
 ollama-client/node_modules/
 qdrant_data/
 __pycache__/
+ollama-client/todo.md

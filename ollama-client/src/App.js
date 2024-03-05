@@ -8,21 +8,6 @@ import { TextField, InputAdornment } from '@mui/material';
 
 
 
-// Add explanation message first
-
-// Add RAG dataset explanation
-
-// Automatically scroll down
-
-// Fix no scroll
-
-// fix reload page, still orginal dataset
-
-// seperate app into components
-
-// seperate 
-
-
 function App() {
   
   const [pythonAPI, setPythonAPI] = useState('');
@@ -126,10 +111,3 @@ function App() {
 
 
 export default App;
-
-
-// Figure out how to host a ollama endpoint for connection
-
-// maybe allow users to change the endpoint
-
-// build script that allows the flask/ollama/node to be hosted all at once
