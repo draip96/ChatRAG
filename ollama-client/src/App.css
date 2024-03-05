@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.App {
+  text-align: center;
+}
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+p{
+  word-wrap: break-word;
+  white-space: pre-line;
+
+}
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+.backforth{
+  display: flex;
+  flex-direction: column;
+}
+
+.loading {
+  animation: spin 1s infinite linear;
+  /* position: absolute;
+  padding: 10px; */
+  color:rgb(62, 62, 190);
+}
+/* 
+.chatBox{
+  background-color:aliceblue;
+} */
+
+@keyframes spin {
+  from {
+      transform: scale(1) rotate(0deg);
+  }
+  to {
+      transform: scale(1) rotate(360deg);
+  }
+}
+.button {
+/* Add your button styles here */
+  background-color:transparent;
+  border-radius: 5px;
+  border-color: rgb(62, 62, 190);
+  box-shadow: none;
+  border-style: solid;
+  font-size: 20px;
+  border:  1px solid rgb(62, 62, 190);
+  color: inherit;
+  margin: 10px;
+  min-width: fit-content;
+}
+
+.prompt {
+  /* Add your prompt styles here */
+  display: flex;
+  justify-content: space-evenly;
+  width:60%;
+  /* position: absolute; */
+}
+/* 
+.container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height:90vh;
+  justify-content: end;
+} */
+
+.chatClient{
+  width: 100%;
+  /* bottom: 15%; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 80%;
+
+}
+
+.chat {
+  /* Add your prompt styles here */
+  /* display: block; */
+  width:90%;
+  background-color:rgb(72, 71, 99);
+  border-radius: 5px;
+  height: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+}
+
+.chatP{
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
