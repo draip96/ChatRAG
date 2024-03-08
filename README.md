@@ -2,7 +2,7 @@
 
 This project is a web-based chatbot which allows users to upload their own RAG datasets. This project uses React for the Web UI, along with a flask backend running the Ollama instance.
 
-![alt text](https://github.com/draip96/RAG-webUI/blob/main/ChatGIF.gif "Chat Example")
+![alt text](https://github.com/draip96/ChatRAG/blob/main/ChatGIF.gif "Chat Example")
 ## Usage
 
 Just start asking questions! To change the RAG dataset, upload a file, and change to the selected dataset in the dropdown.
