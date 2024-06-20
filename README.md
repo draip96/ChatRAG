@@ -2,6 +2,8 @@
 
 This project is a web-based chatbot which allows users to upload their own RAG datasets. This project uses React for the Web UI, along with a flask backend running the Ollama instance.
 
+This example shows the chatbot explaining the process of preparing a dish when given the recipe as a RAG reference document.
+
 ![alt text](https://github.com/draip96/ChatRAG/blob/main/ChatGIF.gif "Chat Example")
 ## Usage
 
