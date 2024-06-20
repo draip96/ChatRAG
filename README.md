@@ -13,11 +13,7 @@ Currently, all RAG data must be uploaded using the JSON format.
 
 ## Installation
 
-### Windows
-
-On windows installation, WSL2 is required for Ollama.
-
-Install WSL2 if necessary.
+For windows installation, WSL2 is required for Ollama. Install WSL2 if necessary.
 
 Download and install [Ollama](https://ollama.com/).
 
